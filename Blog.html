@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo-1.png" type="image/x-icon">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="css/vendors/animate.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+    <!-- Owl Carousel-->
+    <link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/plugins/owl.theme.default.min.css">
+    <!-- Main Css  -->
+    <link rel="stylesheet" href="css/blog.css">
+    <!-- Responsive Css / All Desktop/Mobile/Tab/ Device  -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive-1.css">
+</head>
+
+<body>
+    <!-- Top bar start-->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="content-bar">
+                        <div class="content-text">
+                            <ul>
+                                <li><a href=""><i class="fa-solid fa-phone"></i>+8801918567677</a></li>
+                                <li><a href=""><i class="fa-solid fa-envelope"></i></a>coursebazar@gmail.com</li>
+                                <ul class="social-icons">
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top bar end-->
+    <!-- Nav bar start-->
+    <header class="header-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="desktop-nav">
+                        <nav class="navbar">
+                            <div class="logo"><a href="index.html"><img src="images/Logo.png" alt=""></a></div>
+                            <ul class="nav-links" id="navLinks">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li class="dropdown-list">
+                                    <a href="#" class="dropdown-toggle">Courses</a>
+                                    <ul class="dropdown-sublist">
+                                        <li><a href="Course_list.html">All Courses</a></li>
+                                        <li><a href="Course_list.html">Course List</a></li>
+                                        <li><a href="Course_Details.html">Course Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="Blog.html">Blog</a></li>
+                                <li><a href="Events.html">Events</a></li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="#">Search <i class="fa-solid fa-magnifying-glass"></i></a></li>
+                            </ul>
+                            <div class="menu_button">
+                                <a href="#">Enroll Now <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="responsive-nav justify-content-between d-lg-flex">
+                        <div class="mobile-logo">
+                            <img src="images/Logo.png" alt="">
+                        </div>
+                        <div class="nav-open">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" fill-rule="evenodd"
+                                    d="M3 16h18v2H3zm0-5h18v2H3zm0-5h18v2H3z" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="mobile-nav-wrapper">
+        <div class="dark-shadow"></div>
+        <div class="mobile-nav">
+            <div class="nav-close text-end"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                        viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275t.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275z" />
+                    </svg></a></div>
+            <div class="logo"><img src="images/Logo.png" alt="">
+            </div>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a class="nav-list" href="#">Courses <span class="nav-arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="20" height="20" viewBox="0 0 24 24">
+                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m6 9l6 6l6-6" />
+                            </svg></span></a>
+                    <ul class="nav-hide">
+                        <li><a href="Course_list.html">All Courses</a></li>
+                        <li><a href="Course_list.html">Course List</a></li>
+                        <li><a href="Course_Details.html">Course Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Enroll Now </a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Nav bar end-->
+    <!-- blog part start -->
+    <div class="blog_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="comon_head">
+                        <h2> Blog</h2>
+                        <p>Home >> Blog</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- blog part end -->
+    <!-- from blog start -->
+
+    <!-- from blog end -->
+
+    <div class="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="comon_head">
+                        <h2> <span>From </span>Our Blog</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-log-12">
+                            <div class="Event-card">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="Event-header">
+                                            <div class="event-text">
+                                                <p>Education</p>
+                                            </div>
+                                            <div class="overflow-hidden">
+                                                <img class="Event-image img-fluid" src="images/blog/education1.png"
+                                                    alt="uiux" />
+                                            </div>
+
+                                            <div class="Event-title">
+                                                <h3>“How to Build a Portfolio That Gets Hired”</h3>
+                                                <p>Discover the emerging technologies and innovative methodologies that
+                                                    will
+                                                    reshape
+                                                    digital education and create new opportunities for learners
+                                                    worldwide.
+                                                </p>
+                                            </div>
+                                            <div class="bottom-row">
+                                                <div class="course-fee"><img src="images/Ellipse 11.png" alt=""> 20July,
+                                                    2025
+                                                </div>
+                                                <button class="event-btn" type="button"
+                                                    aria-label="Enroll in UI/UX Design Guided Program course">
+                                                    Read More <i class="fa-solid fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="Event-header">
+                                            <div class="event-text">
+                                                <p>Education</p>
+                                            </div>
+                                            <div class="overflow-hidden">
+                                                <img class="Event-image img-fluid" src="images/blog/education2.png"
+                                                    alt="uiux" />
+                                            </div>
+
+                                            <div class="Event-title">
+                                                <h3>“How to Build a Portfolio That Gets Hired”</h3>
+                                                <p>Discover the emerging technologies and innovative methodologies that
+                                                    will
+                                                    reshape
+                                                    digital education and create new opportunities for learners
+                                                    worldwide.
+                                                </p>
+                                            </div>
+                                            <div class="bottom-row">
+                                                <div class="course-fee"><img src="images/blog/education-b1.png" alt="">
+                                                    20July,
+                                                    2025
+                                                </div>
+                                                <button class="event-btn" type="button"
+                                                    aria-label="Enroll in UI/UX Design Guided Program course">
+                                                    Read More <i class="fa-solid fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="Event-header">
+                                            <div class="event-text">
+                                                <p>Education</p>
+                                            </div>
+                                            <div class="overflow-hidden">
+                                                <img class="Event-image img-fluid" src="images/blog/education3.png"
+                                                    alt="uiux" />
+                                            </div>
+
+                                            <div class="Event-title">
+                                                <h3>“How to Build a Portfolio That Gets Hired”</h3>
+                                                <p>Discover the emerging technologies and innovative methodologies that
+                                                    will
+                                                    reshape
+                                                    digital education and create new opportunities for learners
+                                                    worldwide.
+                                                </p>
+                                            </div>
+                                            <div class="bottom-row">
+                                                <div class="course-fee"><img src="images/blog/education-b1.png" alt="">
+                                                    20July,
+                                                    2025
+                                                </div>
+                                                <button class="event-btn" type="button"
+                                                    aria-label="Enroll in UI/UX Design Guided Program course">
+                                                    Read More <i class="fa-solid fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+
+                                        <div class="Event-header">
+                                            <div class="event-text">
+                                                <p>Tips</p>
+                                            </div>
+                                            <div class="overflow-hidden">
+                                                <img class="Event-image img-fluid" src="images/blog/tips1.png"
+                                                    alt="uiux" />
+                                            </div>
+
+                                            <div class="Event-title">
+                                                <h3>“How to Build a Portfolio That Gets Hired”</h3>
+                                                <p>Discover the emerging technologies and innovative methodologies that
+                                                    will
+                                                    reshape
+                                                    digital education and create new opportunities for learners
+                                                    worldwide.
+                                                </p>
+                                            </div>
+                                            <div class="bottom-row">
+                                                <div class="course-fee"><img src="images/blog/tips.png" alt=""> 20July,
+                                                    2025
+                                                </div>
+                                                <button class="event-btn" type="button"
+                                                    aria-label="Enroll in UI/UX Design Guided Program course">
+                                                    Read More <i class="fa-solid fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="Event-header">
+                                            <div class="event-text">
+                                                <p>Tips</p>
+                                            </div>
+                                            <div class="overflow-hidden">
+                                                <img class="Event-image img-fluid" src="images/blog/tips2.png"
+                                                    alt="uiux" />
+                                            </div>
+
+                                            <div class="Event-title">
+                                                <h3>“How to Build a Portfolio That Gets Hired”</h3>
+                                                <p>Discover the emerging technologies and innovative methodologies that
+                                                    will
+                                                    reshape
+                                                    digital education and create new opportunities for learners
+                                                    worldwide.
+                                                </p>
+                                            </div>
+                                            <div class="bottom-row">
+                                                <div class="course-fee"><img src="images/blog/tips.png" alt=""> 20July,
+                                                    2025
+                                                </div>
+                                                <button class="event-btn" type="button"
+                                                    aria-label="Enroll in UI/UX Design Guided Program course">
+                                                    Read More <i class="fa-solid fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="Event-header">
+                                            <div class="event-text">
+                                                <p>Tips</p>
+                                            </div>
+                                            <div class="overflow-hidden">
+                                                <img class="Event-image img-fluid" src="images/blog/tips3.png"
+                                                    alt="uiux" />
+                                            </div>
+
+                                            <div class="Event-title">
+                                                <h3>“How to Build a Portfolio That Gets Hired”</h3>
+                                                <p>Discover the emerging technologies and innovative methodologies that
+                                                    will
+                                                    reshape
+                                                    digital education and create new opportunities for learners
+                                                    worldwide.
+                                                </p>
+                                            </div>
+                                            <div class="bottom-row">
+                                                <div class="course-fee"><img src="images/blog/tips.png" alt=""> 20July,
+                                                    2025
+                                                </div>
+                                                <button class="event-btn" type="button"
+                                                    aria-label="Enroll in UI/UX Design Guided Program course">
+                                                    Read More <i class="fa-solid fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="find_courses">
+                                            <h3> Find Your Courses</h3>
+                                            <button class="from">
+                                                <input type="text" placeholder="Search courses here" /> <i
+                                                    class="fa-solid fa-magnifying-glass"></i>
+                                            </button>
+                                        </div>
+
+                                        <div class="Recent_Blogs">
+                                            <h3>Most Recent Blogs</h3>
+                                            <div class="image_content">
+                                                <img src="images/blog/study.png" alt="study">
+                                                <div class="course_text">
+                                                    <h4>How to write a case study that
+                                                        tells your design story</h4>
+                                                    <p><i class="fa-regular fa-calendar"></i> 20July, 2025 <span><i
+                                                                class="fa-solid fa-clock-rotate-left"></i> 12 Min Read
+                                                        </span></p>
+                                                </div>
+
+                                            </div>
+                                            <div class="image_content">
+                                                <img src="images/blog/skills.png" alt="skills">
+                                                <div class="course_text">
+                                                    <h4>Why Soft Skills Matter in a Digital
+                                                        Career</h4>
+                                                    <p><i class="fa-regular fa-calendar"></i> 11Aug, 2025 <span><i
+                                                                class="fa-solid fa-clock-rotate-left"></i> 12 Min Read
+                                                        </span></p>
+                                                </div>
+
+                                            </div>
+                                            <div class="image_content">
+                                                <img src="images/blog/online_course.png" alt="online">
+                                                <div class="course_text">
+                                                    <h4>How Online Courses Can Help
+                                                        You Switch Careers Confidently</h4>
+                                                    <p><i class="fa-regular fa-calendar"></i> 21Aug, 2025 <span><i
+                                                                class="fa-solid fa-clock-rotate-left"></i> 12 Min Read
+                                                        </span></p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="Popular_Course">
+                                            <h3> Popular Course</h3>
+                                            <div class="image_content">
+                                                <img src="images/blog/ui-ux.png" alt="study">
+                                                <div class="course_text">
+                                                    <h4>UI/UX Guided Program</h4>
+                                                    <p>Fees: $70</p>
+                                                </div>
+                                            </div>
+                                            <div class="image_content">
+                                                <img src="images/blog/ui-ux.png" alt="study">
+                                                <div class="course_text">
+                                                    <h4>UI/UX Guided Program</h4>
+                                                    <p>Fees: $70</p>
+                                                </div>
+                                            </div>
+                                            <div class="image_content">
+                                                <img src="images/blog/ui-ux.png" alt="study">
+                                                <div class="course_text">
+                                                    <h4>UI/UX Guided Program</h4>
+                                                    <p>Fees: $70</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="popular-tags">
+                                            <h3>Popular Tags</h3>
+                                            <div class="tags-container">
+                                                <div class="tag">Design</div>
+                                                <div class="tag">Development</div>
+                                                <div class="tag">PHP</div>
+                                                <div class="tag">Guides</div>
+                                                <div class="tag">Python</div>
+                                                <div class="tag">Python</div>
+                                                <div class="tag">PHP</div>
+                                                <div class="tag">Education</div>
+                                                <div class="tag">Data Analysis</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="Share-icon">
+                                            <h3>Share Courses</h3>
+                                            <div class="Share_icons">
+                                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                                <a href="#"><i class="fa-brands fa-google"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-8">
+                                        <div class="pagination">
+                                            <button class="page-arrow" aria-label="Previous Page">←</button>
+                                            <button class="page-number active">1</button>
+                                            <button class="page-number">2</button>
+                                            <button class="page-number">3</button>
+                                            <button class="page-number">4</button>
+                                            <button class="page-number">5</button>
+                                            <button class="page-arrow" aria-label="Next Page">→</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer  start -->
+    <div id="footer-section">
+        <div class="container">
+            <div class="row">
+                <!-- Brand + About -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-brand">
+                        <div class="footer-content">
+                            <div class="footer-image">
+                                <img src="images/logo-1.png" alt="logo" class="logo">
+                                <span>Course Bazar</span>
+                            </div>
+                            <h2>Course Bazar is your trusted online learning
+                                platform, offering industry-relevant courses
+                                to help you grow.</h2>
+                            <p>Follow us on</p>
+                            <div class="footer-icons">
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-google"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-links">
+                        <h4>Contact Us</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-location-dot"></i> Uttara 12, Road 15,
+                                    Dhaka</a>
+                            </li>
+                            <li><a href="tel:0164166999"><i class="fa-solid fa-phone-volume"></i>
+                                    0164166999</a>
+                            </li>
+                            <li><a href="mailto:Coursebazar@gmail.com"><i class="fa-solid fa-envelope"></i>
+                                    Coursebazar@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">Privacy & Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Categories -->
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-links">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li><a href="#">UI/UX Guided Program</a></li>
+                            <li><a href="#">Data Analysis with Python</a></li>
+                            <li><a href="#">Graphic Design</a></li>
+                            <li><a href="#">PHP & Laravel</a></li>
+                            <li><a href="#">Full Stack Development</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Download -->
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-links">
+                        <h4>Download our App</h4>
+                        <div class="store">
+                            <img class="" src="images/google play.png" alt="Google Play">
+                            <img class="" src="images/app store.png" alt="App Store">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer">
+                        <p>2025 Copyright © CourseBazar All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="infobtn">
+            <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </div>
+    <!-- ---------------------------------------footer part end--------------------------------------------------------------------- -->
+
+
+
+    <!--Script & Plugin-->
+    <!--jquery-->
+    <script src="js/vendors/jquery-3.7.1.min.js"></script>
+    <!--Bootstrap js-->
+    <script src="js/vendors/bootstrap.bundle.min.js"></script>
+    <!--Owl Main Js-->
+    <script src="js/plugins/owl.carousel.min.js"></script>
+    <script src="js/plugins/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <!--Script & Plugin End-->
+</body>
+
+</html>
